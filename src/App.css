@@ -32,11 +32,11 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-
 
 h1 {
   padding: 10px;
