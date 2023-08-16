@@ -120,7 +120,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 👤 **Michael Darkwah**
 
 - GitHub: [@Mike47ip](https://github.com/Mike47ip)
-- LinkedIn: [Michael Darkwah](https://[linkedin.com/in/michael-darkwah-81a039141/])
+- Twitter: [@ip_mikee](https://twitter.com/ip_mikee/)
+- LinkedIn: [Michael Darkwah](https://linkedin.com/in/michael-darkwah-81a039141/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
