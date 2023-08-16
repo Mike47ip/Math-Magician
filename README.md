@@ -115,9 +115,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="lawrence"></a>
+## 👥 Authors <a name="Michael"></a>
 
-👤 **Lawrence Amoafo**
+👤 **Michael Darkwah**
 
 - GitHub: [@Mike47ip](https://github.com/Mike47ip)
 - Twitter: [@ip_mikee](https://[twitter.com/ip_mikee])
