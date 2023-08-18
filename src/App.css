@@ -35,13 +35,21 @@
 }
 
 .normalBtn {
-  background: #a59393;
+  background-color: #a59393;
   width: 25%;
+}
+
+.normalBtn:active {
+  background-color: #a5512b;
 }
 
 .btn-special {
   width: 25%;
   background: #a5512b;
+}
+
+.btn-special:active {
+  background-color: #c9c2bf;
 }
 
 .btn-double {

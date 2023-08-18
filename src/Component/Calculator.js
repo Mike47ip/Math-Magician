@@ -16,7 +16,7 @@ function Calculator() {
 
   return (
     <div className="container">
-      <h1>Think You`re Smart</h1>
+      <h1>How Good is your Math?</h1>
       <div className="result">
         {total}
         {operation}
