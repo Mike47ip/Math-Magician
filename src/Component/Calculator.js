@@ -1,38 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../Logic/calculate';
 import Buttons from './Buttons';
 
 function Calculator() {
+  const [obj, setObj] = useState({ total: 0, next: null, operation: null });
+
+  const handleChange = (e) => {
+    const buttonName = e.target.textContent;
+    const result = calculate(obj, buttonName);
+    setObj(result);
+    return result;
+  };
+
+  const { total, next, operation } = obj;
+
   return (
     <div className="container">
-      <div className="result">0</div>
-      <div className="calc-row">
-        <Buttons label="AC" className="normalBtn" />
-        <Buttons label="+/-" className="normalBtn" />
-        <Buttons label="%" className="normalBtn" />
-        <Buttons label="÷" className="btn-special" />
+      <h1>Think You`re Smart</h1>
+      <div className="result">
+        {total}
+        {operation}
+        {next}
       </div>
       <div className="calc-row">
-        <Buttons label="7" className="normalBtn" />
-        <Buttons label="8" className="normalBtn" />
-        <Buttons label="9" className="normalBtn" />
-        <Buttons label="×" className="btn-special" />
+        <Buttons label="AC" className="normalBtn" onClick={handleChange} />
+        <Buttons label="+/-" className="normalBtn" onClick={handleChange} />
+        <Buttons label="%" className="normalBtn" onClick={handleChange} />
+        <Buttons label="÷" className="btn-special" onClick={handleChange} />
       </div>
       <div className="calc-row">
-        <Buttons label="4" className="normalBtn" />
-        <Buttons label="5" className="normalBtn" />
-        <Buttons label="6" className="normalBtn" />
-        <Buttons label="-" className="btn-special" />
+        <Buttons label="7" className="normalBtn" onClick={handleChange} />
+        <Buttons label="8" className="normalBtn" onClick={handleChange} />
+        <Buttons label="9" className="normalBtn" onClick={handleChange} />
+        <Buttons label="x" className="btn-special" onClick={handleChange} />
       </div>
       <div className="calc-row">
-        <Buttons label="1" className="normalBtn" />
-        <Buttons label="2" className="normalBtn" />
-        <Buttons label="3" className="normalBtn" />
-        <Buttons label="+" className="btn-special" />
+        <Buttons label="4" className="normalBtn" onClick={handleChange} />
+        <Buttons label="5" className="normalBtn" onClick={handleChange} />
+        <Buttons label="6" className="normalBtn" onClick={handleChange} />
+        <Buttons label="-" className="btn-special" onClick={handleChange} />
       </div>
       <div className="calc-row">
-        <Buttons label="0" className="btn-double" />
-        <Buttons label="." className="normalBtn" />
-        <Buttons label="=" className="btn-special" />
+        <Buttons label="1" className="normalBtn" onClick={handleChange} />
+        <Buttons label="2" className="normalBtn" onClick={handleChange} />
+        <Buttons label="3" className="normalBtn" onClick={handleChange} />
+        <Buttons label="+" className="btn-special" onClick={handleChange} />
+      </div>
+      <div className="calc-row">
+        <Buttons label="0" className="btn-double" onClick={handleChange} />
+        <Buttons label="." className="normalBtn" onClick={handleChange} />
+        <Buttons label="=" className="btn-special" onClick={handleChange} />
       </div>
     </div>
   );
