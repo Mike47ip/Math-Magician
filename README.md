@@ -64,7 +64,7 @@ This is a react app for fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available](https://...)
+- [Click here](https://math-magician-fdeuco07s-mike47ip.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function DisplayQuote() {
+function Quotes() {
   const [myQuote, setMyQuote] = useState('');
   const [quoteLoading, setQuoteLoading] = useState(true);
   const [quoteError, setQuoteError] = useState(null);
@@ -40,4 +40,4 @@ function DisplayQuote() {
   );
 }
 
-export default DisplayQuote;
+export default Quotes;
