@@ -11,15 +11,17 @@ function App() {
       <nav className="navBar">
         <h1>Math Magician</h1>
         <div className="navLinks">
-          <Link>Home</Link>
-          <Link>Calculator</Link>
-          <Link>Qoutes</Link>
+          <Link to="/">Home</Link>
+          <Link to="Calculator">Calculator</Link>
+          <Link to="/Quotes">Qoutes</Link>
         </div>
       </nav>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Calculator />} />
-          <Route path="/Qoutes" element={<Quotes />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/Quotes" element={<Quotes />} />
+          <Route path="*" />
         </Routes>
       </div>
     </>
