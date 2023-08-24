@@ -69,3 +69,42 @@
   font-size: larger;
   padding-top: 50px;
 }
+
+.Home {
+  padding: 10%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50em;
+  background-color: coral;
+  color: white;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navLinks a:link {
+  color: white;
+}
+
+.navLinks a:visited {
+  color: black;
+}
+
+.navLinks a:active,
+.navLinks a:focus {
+  color: white;
+}
+
+
+.navBar a {
+  text-decoration: none;
+  color: white;
+}
+
