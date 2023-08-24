@@ -159,6 +159,7 @@ If you like this project give it a **STAR**
 I would like to thank:
 - All Micronauts
 - My coding partners
+- My stand-up team
 
 <!-- LICENSE -->
 
