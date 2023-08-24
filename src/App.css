@@ -91,6 +91,11 @@ body {
   height: auto;
 }
 
+.navBar a {
+  text-decoration: none;
+  color: white;
+}
+
 .navLinks {
   display: flex;
   flex-direction: row;
@@ -110,45 +115,25 @@ body {
   color: white;
 }
 
-
-.navBar a {
-  text-decoration: none;
-  color: white;
-}
-
 @media screen and (max-width: 700px) {
   .navBar {
     gap: 25%;
   }
-
-  /* .navLinks {
-    padding-right: 15px;
-  } */
-  
 }
 
 @media screen and (max-width: 614px) {
   .navBar {
     gap: 15%;
   }
-
-  /* .navLinks {
-    padding-right: 15px;
-  } */
 }
 
 @media screen and (max-width: 454px) {
   .navBar {
     gap: 9%;
-    padding: 0px 15px;
+    padding: 0 15px;
   }
 
   .Home {
-    /* margin-top: 50%; */
     font-size: small;
   }
-
-  /* .navLinks {
-    padding-right: 15px;
-  } */
 }
