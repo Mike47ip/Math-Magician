@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Calculator" element={<Calculator />} />
           <Route path="/Quotes" element={<Quotes />} />
-          <Route path="*" />
+          <Route path="*" element={<h4>PAGE NOT FOUND</h4>} />
         </Routes>
       </div>
     </>
