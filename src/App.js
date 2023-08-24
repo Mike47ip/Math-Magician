@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom';
 import Calculator from './Component/Calculator';
 import Quotes from './Component/Quotes';
+import Home from './Component/Home';
 
 function App() {
   return (
